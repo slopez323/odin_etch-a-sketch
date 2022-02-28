@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(16,6.25vw);
+    grid-auto-rows: minmax(5.5vw,auto);
+}
+
+.grid{
+    width: 25vw;
+    height: auto;
+    /* border: solid black; */
+}
+
+.hover{
+    background-color: blue;
+}
